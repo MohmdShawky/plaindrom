@@ -1,0 +1,45 @@
+.palin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+
+label{
+    padding: 15px;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input {
+    outline: none;
+    /* border: ; */
+    padding: 10px;
+    width: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+input:focus{
+    color: red;
+    border: 1px solid red;
+}
+button{
+    padding: 15px;
+    width: 185px;
+    outline: none;
+    border: none;
+    background: red;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
